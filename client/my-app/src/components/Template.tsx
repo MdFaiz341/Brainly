@@ -43,7 +43,6 @@ export const NewTemplate = ({mode, heading, buttonText}:TemplateProps)=>{
         const endpoint = isSignUp ? "signup" : "login"
         if(endpoint === "signup"){
             try{
-                console.log("yaha")
                 setLoading(true);
                 const response = await api.post("/signup", data);
                 navigate("/signin");
