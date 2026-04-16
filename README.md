@@ -1,9 +1,9 @@
-## 📖 Overview
+# 📖 Overview
  - Second Brain App is a personal content management system that helps users save, organize, and    retrieve useful content from platforms like YouTube and Twitter.
 
  - Instead of losing valuable resources, users can store them in one place and access them anytime.
 
-## ✨ Features
+# ✨ Features
  - 🔐 Authentication System
     - Secure Signup & Signin
  - 📌 Save Content
@@ -35,13 +35,13 @@
  - npm run build
  - npm run dev
 
-## Environment Variables
+# Environment Variables
  - Create a .env file in the server folder:
     - PORT=5000
     - MONGO_URI=your_mongodb_connection
     - JWT_SECRET=your_secret_key
 
-## Usage
+# Usage
  - Signup or Signin
  - Paste a YouTube or Twitter link
  - Save the content
