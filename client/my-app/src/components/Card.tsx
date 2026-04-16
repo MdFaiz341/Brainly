@@ -19,7 +19,7 @@ export const Card = (props:CardProps)=>{
 
     useEffect(() => {
         const timeout = setTimeout(() => {
-            if (window?.twttr) {
+            if (window?.twttr.widgets) {
                 window.twttr.widgets.load()
             }
         }, 300)
