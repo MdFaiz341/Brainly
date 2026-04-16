@@ -4,14 +4,13 @@ node_modules/
 # env files
 .env
 .env.*
+**/.env
+**/.env.*
 
 # build files
 dist/
 build/
 
-# logs
-logs
+# misc
 *.log
-
-# OS files
 .DS_Store
